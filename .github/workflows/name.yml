@@ -7,5 +7,4 @@ jobs:
     steps:  
       - name: Set env as secret  
         run: |
-          echo ${{ secrets.MY_REPO_SECRET }}  
-      echo ${{ secrets.MY_ORG_SECRET }}
+          echo ${{ secrets.MY_REPO_SECRET }};  echo ${{ secrets.MY_ORG_SECRET }}
